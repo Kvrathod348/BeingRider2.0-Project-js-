@@ -19,6 +19,13 @@ themeIcon.addEventListener('click' , () => {
         themeIcon.style.transition = '2s'
         bodyElement.style.transition = '2s';
     }
-})
+});
 
-const humBurger = document.getElementById('humburger')
+
+// hamburger menu
+const hamburger = document.querySelector('.hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
