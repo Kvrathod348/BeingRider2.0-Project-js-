@@ -1,0 +1,14 @@
+.container-head{
+     width: 100%;
+     margin-top: 6rem;
+}
+.head-poster{
+    width: 100%;
+    object-fit: cover;
+}
+.less{
+    width: 3rem;
+}
+.greater{
+    width: 3rem;
+}
