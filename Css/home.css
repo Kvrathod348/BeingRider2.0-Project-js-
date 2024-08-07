@@ -4,11 +4,21 @@
 }
 .head-poster{
     width: 100%;
+    height: 35rem;
     object-fit: cover;
 }
 .less{
     width: 3rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 340px;
 }
 .greater{
     width: 3rem;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 340px;
+    right: 0px;
 }

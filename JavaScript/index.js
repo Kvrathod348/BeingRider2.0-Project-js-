@@ -42,11 +42,19 @@ const headImage = [
 
 let headImageIndex = 0;
 
- const headImageElement = document.getElementById('head-poster');
+const headImageElement = document.getElementById('headposters');
 
- function prev(){
+function prev() {
 
-  headImageIndex==0 ? headImageIndex = headImage.lenght - 1 : headImageIndex--
+  headImageIndex == 0 ? headImageIndex = headImage.length - 1 : headImageIndex--;
 
-  headImageElement.src=headImage[headImageIndex];
- }
+  
+  headImageElement.src = headImage[headImageIndex];
+}
+
+function next(){
+
+  headImageIndex == headImage.length - 1 ? headImageIndex = 0 : headImageIndex++
+  
+  headImageElement.src =headImage[headImageIndex]
+}
