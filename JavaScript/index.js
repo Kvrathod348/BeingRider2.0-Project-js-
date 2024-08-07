@@ -58,3 +58,4 @@ function next(){
   
   headImageElement.src =headImage[headImageIndex]
 }
+setInterval (next,2000);
