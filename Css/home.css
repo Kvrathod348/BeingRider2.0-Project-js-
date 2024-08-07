@@ -22,3 +22,38 @@
     top: 340px;
     right: 0px;
 }
+/* Search Box and using DOM , Array & Object */
+
+.conatainer-searchBox{
+    text-align: center;
+
+}
+.web-title{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30rem;
+    margin: 30px auto;
+    padding: 8px;
+    box-shadow: 0px 0px 15px #938e8e;
+    border-radius: 10px;
+}
+
+.web-title h1{
+    margin: 20px 0;
+    font-size: 45px;
+}
+.web-title h1 p{
+    font-size: 15px;
+}
+.sybol-title{
+    width: 7rem;
+}
+.title-description{
+    font-size: 20px;
+    width: 70rem;
+    padding: 5rem 2rem 3rem 2rem;
+    margin: 0 auto;
+    margin-top: -80px;
+    box-shadow: 1px 30px 19px #938e8e;
+    border-radius: 45px;
+}

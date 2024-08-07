@@ -50,7 +50,6 @@ function prev() {
 
   headImageIndex == 0 ? headImageIndex = headImage.length - 1 : headImageIndex--;
 
-  
   headImageElement.src = headImage[headImageIndex];
 }
 
@@ -58,6 +57,11 @@ function next(){
 
   headImageIndex == headImage.length - 1 ? headImageIndex = 0 : headImageIndex++
   
-  headImageElement.src =headImage[headImageIndex]
+  headImageElement.src =headImage[headImageIndex];
+  
 }
 setInterval (next,3000);
+
+
+// Using Array And Object
+
