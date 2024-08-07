@@ -30,6 +30,8 @@ hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('active');
 });
 
+
+
 // image slider
 
 const headImage = [
@@ -58,4 +60,4 @@ function next(){
   
   headImageElement.src =headImage[headImageIndex]
 }
-setInterval (next,2000);
+setInterval (next,3000);

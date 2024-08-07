@@ -5,9 +5,14 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
+    
+}
+
+.body{
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 .navbar{
-    background-image: linear-gradient(135deg, #ffffff 0%,#55514e 100%);
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
     color: #160808;
     display: flex;
     justify-content: space-between;
@@ -84,15 +89,15 @@
 
   .bg-black{
     color: #77cd81;
-    background-color: #160808;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   }
 
   .bg-light{
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     color: #160808;
   }
   .active-theme{
-    filter: drop-shadow( 0px 0px 10px #ffffff);
+    filter: drop-shadow( 0px 0px 10px  #537895);
     border-radius: 35px;
   }
   @media screen and (max-width: 600px) {
