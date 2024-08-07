@@ -1,20 +1,23 @@
-.container-head{
-     width: 100%;
-     margin-top: 6rem;
+.container-head {
+    width: 100%;
+    margin-top: 6rem;
 }
-.head-poster{
+
+.head-poster {
     width: 100%;
     height: 35rem;
     object-fit: cover;
 }
-.less{
+
+.less {
     width: 3rem;
     cursor: pointer;
     display: block;
     position: absolute;
     top: 340px;
 }
-.greater{
+
+.greater {
     width: 3rem;
     cursor: pointer;
     display: block;
@@ -22,13 +25,15 @@
     top: 340px;
     right: 0px;
 }
+
 /* Search Box and using DOM , Array & Object */
 
-.conatainer-searchBox{
+.conatainer-head-title {
     text-align: center;
-
+    width: 100%;
 }
-.web-title{
+
+.web-title {
     display: flex;
     justify-content: space-evenly;
     width: 30rem;
@@ -38,17 +43,20 @@
     border-radius: 10px;
 }
 
-.web-title h1{
+.web-title h1 {
     margin: 20px 0;
     font-size: 45px;
 }
-.web-title h1 p{
+
+.web-title h1 p {
     font-size: 15px;
 }
-.sybol-title{
+
+.sybol-title {
     width: 7rem;
 }
-.title-description{
+
+.title-description {
     font-size: 20px;
     width: 70rem;
     padding: 5rem 2rem 3rem 2rem;
@@ -56,4 +64,28 @@
     margin-top: -80px;
     box-shadow: 1px 30px 19px #938e8e;
     border-radius: 45px;
+}
+
+.container-searchBox{
+    text-align: center;
+    text-align: center;
+    width: 100%;
+    margin: 8rem auto;
+}
+
+.title-searchBox{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 45rem;
+    margin: 0 auto;
+    padding: 30px;
+    border: solid 3px;
+}
+.container-searchBox h1 {
+    font-size: 50px;
+    margin: 35px 0px;
+}
+.adv-img{
+    width: 8rem;
 }
