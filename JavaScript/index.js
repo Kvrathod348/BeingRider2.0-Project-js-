@@ -17,6 +17,7 @@ themeIcon.addEventListener('click', () => {
     themeIcon.src = './assets/icons/sun.png';
     themeIcon.style.transition = '2s'
     bodyElement.style.transition = '2s';
+    headingExpo.style.color = 'black'
   }
 });
 
@@ -53,15 +54,31 @@ function prev() {
   headImageElement.src = headImage[headImageIndex];
 }
 
-function next(){
+function next() {
 
   headImageIndex == headImage.length - 1 ? headImageIndex = 0 : headImageIndex++
-  
-  headImageElement.src =headImage[headImageIndex];
-  
+
+  headImageElement.src = headImage[headImageIndex];
+
 }
-setInterval (next,3000);
+setInterval(next, 3000);
 
 
 // Using Array And Object
 
+const expoAdventureImg = {
+  image: [
+    "./assets/home/manali-to-ledakh.jpg",
+    "./assets/home/shimla-to-spitivalley.jpg",
+    "./assets/home/goa-vs-gokarna.jpg",
+    "./assets/home/Bangalore to Coorg.jpeg",
+    "./assets/home/Delhi to Jaipur via Agra.jpg"
+  ],
+  adventureName: [
+    "Manali to Leh Highway",
+    "Shimla to Spitivalley",
+    "Goa to Gokarna",
+    "Bangalore to Co-org",
+    "Delhi to Jaipur Via Agra"
+  ]
+}

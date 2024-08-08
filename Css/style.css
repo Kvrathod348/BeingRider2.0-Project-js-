@@ -71,13 +71,13 @@
     display: flex;
     justify-content: space-around;
   }
-  .switch-btn a{
+  /* .switch-btn a{
     background-color: #fff;
     text-decoration: none;
     margin: 25px 0;
     padding: 14px 40px;
     border-radius: 5rem;
-}
+} */
   .theme-btn{
     width: 3rem;
     margin: 10px 20px;
