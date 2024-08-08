@@ -81,4 +81,22 @@ const expoAdventureImg = {
     "Bangalore to Co-org",
     "Delhi to Jaipur Via Agra"
   ]
+};
+
+const searchInputBox = document.getElementById('searchBox')
+const searchInputBoxValue = searchInputBox.value;
+
+const placeImage = document.getElementById('placeimage')
+const placeName = document.getElementById('placename')
+
+function search() {
+
+  switch (searchInputBoxValue) {
+    case "Manali to Leh Highway":
+
+    placeImage.src = expoAdventureImg.image[0];
+    placeName.src = `Best Choice ${expoAdventureImg.adventureName[0]}`
+  }
+  console.log(`Best Choice ${expoAdventureImg.adventureName[0]}`)
+
 }

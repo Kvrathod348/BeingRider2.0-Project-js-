@@ -89,15 +89,29 @@
         </div>
 
         <div class="my-4">
-            <select class="px-5 py-3 mx-2 rounded border border-info border-3" id="searchBox">
-                <option value="">Manali to Leh Highway</option>
-                <option value="">Shimla to Spitivalley</option>
-                <option value="">Goa to Gokarna</option>
-                <option value="">Bangalore to Coorg</option>
-                <option value="">Delhi to Jaipur Via Agra</option>
-            </select>
+            <form action="" onchange="search()">
+                <select class="px-5 py-3 mx-2 border border-info border-3 " style="cursor: pointer;" id="searchBox">
+                    <option value="">Choose your Place 😉</option>
+                    <option value="">Manali to Leh Highway</option>
+                    <option value="">Shimla to Spitivalley</option>
+                    <option value="">Goa to Gokarna</option>
+                    <option value="">Bangalore to Coorg</option>
+                    <option value="">Delhi to Jaipur Via Agra</option>
+                </select>
+                <img src="./assets/icons/search (1).png" alt="" width="50px" style="cursor: pointer;">
+            </form>
+            
+        </div>
+    </div>
 
-            <img src="./assets/icons/search (1).png" alt="" width="50px" style="cursor: pointer;">
+    <!-- Place Image & Place name or Information give -->
+
+    <div class="row mx-5 my-2">
+        <div class="col-6 bg-info">
+            image card
+        </div>
+        <div class="col-6 bg-primary">
+            palce information
         </div>
     </div>
     <script src="./JavaScript/index.js"></script>
