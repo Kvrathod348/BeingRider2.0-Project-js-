@@ -126,7 +126,6 @@ const expoAdventureImg = {
 
   ],
 };
-
 const allBikeDetails = {
   "manaliBike": [{
     "bikeImage": `./assets/home/RoyalEnfiled-Engine-411cc.jpg`,
