@@ -1,17 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: normal;
-    
+
 }
 
-.body{
+.body {
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
-.navbar{
+
+.navbar {
     background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
     color: #160808;
     display: flex;
@@ -23,18 +24,22 @@
     z-index: 1000;
     width: 100%;
 }
-.container-nav{
+
+.container-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-.logo-nav{
+
+.logo-nav {
     width: 15rem;
 }
-.logo{
+
+.logo {
     width: 100%;
 }
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -67,40 +72,32 @@
     margin: 5px;
     transition: all 0.3s ease;
 }
-  .switch-btn{
-    display: flex;
-    justify-content: space-around;
-  }
-  /* .switch-btn a{
-    background-color: #fff;
-    text-decoration: none;
-    margin: 25px 0;
-    padding: 14px 40px;
-    border-radius: 5rem;
-} */
-  .theme-btn{
+
+.theme-btn {
     width: 3rem;
     margin: 10px 20px;
     object-fit: contain;
     cursor: pointer;
-  }
+}
 
-  /* JavaScript Part Theme Icon */
+/* JavaScript Part Theme Icon */
 
-  .bg-black{
+.bg-black {
     color: #7fd4ea;
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
-  }
+}
 
-  .bg-light{
+.bg-light {
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     color: #160808;
-  }
-  .active-theme{
-    filter: drop-shadow( 0px 0px 10px  #537895);
+}
+
+.active-theme {
+    filter: drop-shadow(0px 0px 10px #537895);
     border-radius: 35px;
-  }
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
     .nav-links {
         display: none;
         flex-direction: column;
@@ -125,5 +122,5 @@
         display: block;
         cursor: pointer;
     }
-   
+
 }
