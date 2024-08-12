@@ -90,7 +90,7 @@
 
         <div class="my-4">
             <form action="" onchange="change()">
-                <select class="px-5 py-3 mx-2 border border-info border-3 " style="cursor: pointer;" id="searchBox">
+                <select class="px-5 py-3 mx-2 border border-info border-3 cursor" id="searchBox">
                     <option value="">Choose your Place 😉 </option>
                     <option value="Manali to Leh Highway">Manali to Leh Highway</option>
                     <option value="Shimla to Spitivalley">Shimla to Spitivalley</option>
@@ -113,7 +113,7 @@
         <div class="col-sm-12 col-md-12 col-lg-6">
             <div class="m-2">
                 <img src="./assets/home/search-default.png" alt="default-image" id="placeimage"
-                    class="object-fit-cover" width="650px" height="400px">
+                    class="object-fit-cover rounded-4" width="650px" height="400px">
             </div>
         </div>
 
@@ -195,28 +195,40 @@
             <div class="col-sm-12 col-md-3 col-lg-3 ">
                 <div class="p-3">
                     <img src="./assets/icons/technician.png" alt="" width="100px">
-                    <span >Near Technician</span>
+                    <span>Near Technician</span>
                 </div>
             </div>
         </div>
     </div>
 
-<!-- Product Design Using Js Part -->
-    <div class="row">
-        <div class="col-8">
-            <div>
-                <img src="" alt="">
-            </div>
+    <!-- Product Design Using Js Part -->
+    <div class="row m-5">
+        <div class="col-9">
+            <div class="my-5 mx-3 p-3 text-center">
+                <img src="./assets/home/product-poster-head.webp" class="object-fit-cover rounded" width="1000px"
+                    height="500px" id="spot-view">
 
-            <h1>Showing Best View During Bike Riding</h1>
+                <h1 class="my-5" id="spot-head">Showing Best Place's View During Bike Riding 😉</h1>
+                <p id="detail-spots"></p>
+
+            </div>
         </div>
-        <div class="col-4">
-            <div class="flex-column">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+        <div class="col-3">
+            <div class="flex-column p-4">
+                <img src="./assets/home/manali-to-ledakh.jpg" class="object-fit-cover m-2 cursor rounded-4"
+                    width="200px" height="100px" onchange="one()">
+
+                <img src="./assets/home/shimla-to-spitivalley.jpg" alt="" class="object-fit-cover m-2 cursor rounded-4"
+                    width="200px" height="100px" onchange="two()">
+
+                <img src="./assets/home/goa-vs-gokarna.png" alt="" class="object-fit-cover m-2 cursor rounded-4"
+                    width="200px" height="100px" onchange="three()">
+
+                <img src="./assets/home/bangalore-to-coorg.jpeg" alt="" class="object-fit-cover m-2 cursor rounded-4"
+                    width="200px" height="100px" onchange="four()">
+
+                <img src="./assets/home/delhi-to-jaipur-via-agra.jpg" class="object-fit-cover m-2 cursor rounded-4"
+                    width="200px" height="100px" onchange="five()">
             </div>
         </div>
     </div>

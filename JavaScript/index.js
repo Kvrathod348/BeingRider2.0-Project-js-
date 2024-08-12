@@ -135,14 +135,14 @@ const allBikeDetails = {
               <li>Features: Designed specifically for adventure touring, the Himalayan is built to handle rough terrain and high altitudes. Its long-travel suspension, high ground clearance, and comfortable riding position make it ideal for the Manali to Leh trip.</li>
               </ul>`
   }],
-  "spitiBike" :[ {
+  "spitiBike": [{
     "bikeImage": `./assets/home/2023-ktm-390-adventure-main-min.jpg`,
     "bikeDetail": `<h3>The Shimla to Spiti Valley highway is a challenging route with rough terrains, steep inclines, and high-altitude conditions. Here are some of the best bikes suited for this adventurous journey:</h3>
       <ul class ="text-start fs-5"><b>KTM 390 Adventure:</b>
       <li>This bike offers a good balance between power and agility, making it ideal for the varied terrains of Spiti Valley. Its lightweight frame, high ground clearance, and advanced features like switchable ABS are perfect for navigating the challenging conditions.</li>
       </ul>`
   }],
-  "goaToGokarna" : [{
+  "goaToGokarna": [{
     "bikeImage": `./assets/home/Honda-H-ness-CB350-Legacy-500x261.webp`,
     "bikeDetail": `<h3>The Goa to Gokarna road trip is a scenic coastal ride, perfect for a relaxed and enjoyable bike journey. Here are some of the best bikes for this route:</h3>
       <ul class ="text-start fs-5"><b>Honda CB350:</b>
@@ -150,7 +150,7 @@ const allBikeDetails = {
       </ul>`
 
   }],
-  "bangaloreToCoorg" :[{
+  "bangaloreToCoorg": [{
     "bikeImage": `./assets/home/der-dominor.png`,
     "bikeDetail": `<h3>The Bangalore to Coorg road trip is a popular route for bikers, offering lush green landscapes and winding roads. Here are a few bikes that are well-suited for this journey:</h3>
       <ul class ="text-start fs-5"><b>Bajaj Dominar 400: </b>
@@ -158,7 +158,7 @@ const allBikeDetails = {
       </ul>`
 
   }],
-  "delhiToJaipurViaAgra":[{
+  "delhiToJaipurViaAgra": [{
     "bikeImage": `./assets/home/Royal-Enfield-Classic-350-.webp`,
     "bikeDetail": `<h3>For the Delhi to Jaipur via Agra highway road trip, choosing the right bike can significantly enhance your experience, especially considering the mixed road conditions, distance, and the need for comfort on long rides. Here are some of the best bikes for this road trip:</h3>
       <ul class ="text-start fs-5"><b>Royal Enfield Classic 350:</b>
@@ -230,3 +230,162 @@ function change() {
 
 
 }
+
+// Product Design
+const dataSpotsImage = {
+  "manali-leh": [
+    {
+    "img": './assets/home/m-t-l/m-t-l-1.webp',
+    "head": 'Rohtang Pass',
+    "descr": `View: As you ascend Rohtang Pass, you'll be greeted with stunning vistas of snow-covered peaks, deep valleys, and the lush green landscape below. The contrast between the snow and the greenery is a sight to behold, especially during early summer.`
+  },
+  {
+    "img": './assets/home/m-t-l/Keylong-m-t-l-2.webp',
+    "head": 'Keylong',
+    "descr":`View: The lush Lahaul Valley, with its rolling green fields, quaint villages, and backdrop of towering mountains, offers a serene and picturesque stop. Keylong, the district headquarters, is surrounded by monasteries and provides a tranquil view of the valley.`
+  },
+  {
+    "img":'./assets/home/m-t-l/lahaul-valley-3.jpg',
+    "head":' Lahaul Valley',
+    "descr":``
+  },
+  {
+    "img":'./assets/home/m-t-l/Baralacha La m-t-l-4.avif',
+    "head":'Baralacha La (16,040 ft)',
+    "descr":`View: One of the highest mountain passes on this route, Baralacha La offers a dramatic landscape with rugged terrain, snow-capped peaks, and shimmering blue lakes. The confluence of roads leading to Leh and Spiti adds to the beauty and excitement.
+`
+  },
+  {
+    "img":'./assets/home/m-t-l/Sarchu Plains-m-t-l-5.jpg',
+    "head":'Sarchu Plain',
+    "descr":`View: Sarchu, located on the border between Himachal Pradesh and Ladakh, presents an otherworldly view of vast plains surrounded by towering mountains. The barren landscape with its stark beauty under the blue sky is a favorite for photographers.`
+  }
+],
+"shimla-spitivalley" :[
+  {
+    "img" : `./assets/home/s-t-s/narkanda-weekend-s-t-s-1.webp`,
+    "head":`Narkanda`,
+    "descr":`View: As you pass through Narkanda, you’ll be treated to sweeping views of dense pine forests and the majestic snow-capped peaks of the Himalayas. A detour to Hatu Peak offers a panoramic view of the surrounding mountains and valleys, with apple orchards dotting the landscape.`
+  },
+  {
+    "img" : `./assets/home/s-t-s/Hatu Peak-s-t-s=2.jpeg`,
+    "head":`Hatu Peak`,
+    "descr":`View: As you pass through Narkanda, you’ll be treated to sweeping views of dense pine forests and the majestic snow-capped peaks of the Himalayas. A detour to Hatu Peak offers a panoramic view of the surrounding mountains and valleys, with apple orchards dotting the landscape.`
+  },
+  {
+    "img" : `./assets/home/s-t-s/Sutlej-River-s-t-s=3.webp`,
+    "head":`Sutlej River`,
+    "descr":`View: Riding along the Sutlej River, you’ll experience dramatic views of deep gorges, rugged cliffs, and the river winding its way through the valley. The contrast of the river's blue waters against the barren, rocky landscape is mesmerizing.`
+  },
+  {
+    "img" : `./assets/home/s-t-s/Kalpa-at-s-t-s=4.jpg`,
+    "head":`Kinnaur Kailash Range`,
+    "descr":`View: The road through Kinnaur offers awe-inspiring views of the Kinnaur Kailash Range, with its towering peaks and hanging glaciers. The sight of the sacred Kinnaur Kailash peak, often shrouded in clouds, is a highlight, along with the lush green valleys and terraced fields below`
+  },
+  {
+    "img" : `./assets/home/s-t-s/Nako-scaled-s-t-s5.jpg`,
+    "head":`Nako Lake`,
+    "descr":`View: Nako Lake, located in the high-altitude village of Nako, is a serene and picturesque spot surrounded by mountains. The reflection of the snow-capped peaks in the still waters of the lake, with traditional Tibetan-style houses around, creates a tranquil and photogenic scene.`
+  },
+],
+"Gao-garkanana":[
+  {
+    "img":`./assets/home/g-t-g/Palolem Beach-g-t-g=1.jpeg`,
+    "head":`Palolem Beach`,
+    "descr":`View: Just south of Goa, Palolem Beach offers a tranquil setting with its crescent-shaped shoreline lined with palm trees and colorful beach huts. The view of the sun rising or setting over the Arabian Sea from here is simply mesmerizing.`
+  },
+  {
+    "img":`./assets/home/g-t-g/Hatu Peak-s-t-s=2.jpeg`,
+    "head":` Cabo de Rama Fort`,
+    "descr":`View: As you ride through the serene stretch of Agonda Beach, the unspoiled sandy shores and clear waters create a perfect tropical scene. A short detour to Cabo de Rama Fort offers panoramic views of the rugged coastline and the vast expanse of the Arabian Sea.`
+  },
+  {
+    "img":`./assets/home/g-t-g/Sutlej-River-s-t-s=3.webp`,
+    "head":`Karwar Beach`,
+    "descr":`View: Crossing into Karnataka, the town of Karwar offers stunning views where the Kali River meets the Arabian Sea. The view of the river estuary, with its calm waters, fishing boats, and the surrounding greenery, is picturesque. The Karwar Beach itself is a peaceful spot with golden sands and gentle waves.`
+  },
+  {
+    "img":`./assets/home/g-t-g/Kalpa-at-s-t-s=4.jpg`,
+    "head":`Kali River Estuary`,
+    "descr":`View: Crossing into Karnataka, the town of Karwar offers stunning views where the Kali River meets the Arabian Sea. The view of the river estuary, with its calm waters, fishing boats, and the surrounding greenery, is picturesque. The Karwar Beach itself is a peaceful spot with golden sands and gentle waves.`
+  },
+  {
+    "img":`./assets/home/g-t-g/Nako-scaled-s-t-s5.jpg`,
+    "head":`Gokarna`,
+    "descr":`View: As you approach Gokarna, the view from the cliffs overlooking Om Beach is iconic. The beach gets its name from its natural Om shape, and the sight of the gentle waves lapping against the unique coastline, surrounded by green hills, is a perfect end to the trip. The sunset view from here is particularly spectacular, casting a golden hue over the waters.`
+  }
+],
+"Banglore-Coorg":[
+  {
+    "img":`./assets/home/b-t-o/ramanagaram-b-t-o=1.jpg`,
+    "head":`Ramanagara Hills`,
+    "descr":`View: Just after leaving Bangalore, you'll pass through the rugged terrain of Ramanagara, known as the "Silk City" and famous for its rocky hills. The view of these towering granite outcrops, surrounded by greenery, provides a dramatic backdrop for the start of your journey.`
+  },
+  {
+    "img":`./assets/home/b-t-o/Channapatna-b-t-o=2.jpg`,
+    "head":`Channapatna`,
+    "descr":`View: As you ride through Channapatna, known for its traditional wooden toys, you'll see charming countryside views dotted with colorful toy shops. The vibrant atmosphere and rural landscapes offer a picturesque and culturally rich experience.`
+  },
+  {
+    "img":`./assets/home/b-t-o/Mandya-b-t-o=3.jpg`,
+    "head":`Mandya`,
+    "descr":`View: The stretch through Mandya district is characterized by vast sugarcane fields, banana plantations, and coconut groves. The lush greenery and the sight of farmers working in the fields provide a refreshing and serene view.`
+  },
+  {
+    "img":`./assets/home/b-t-o/Mysore Palace (Optional Detour)-b-t-o=4.jpg`,
+    "head":`Mysore Palace (Optional Detour)`,
+    "descr":`View: If you take a short detour through Mysore, you'll be treated to the grand sight of the Mysore Palace, one of India’s most iconic landmarks. The palace’s majestic architecture, set against the backdrop of well-manicured gardens, is a feast for the eyes.`
+  },
+  {
+    "img":`./assets/home/b-t-o/Coffee Plantations in Coorg-b-t-0=5.jpg`,
+    "head":`Coffee Plantations in Coorg`,
+    "descr":`View: As you ascend into the Western Ghats and approach Coorg, the landscape transforms into rolling hills covered with dense forests and sprawling coffee plantations. The view of the mist-covered hills, interspersed with coffee bushes, pepper vines, and the occasional waterfall, is truly mesmerizing. The cool breeze and the aroma of coffee in the air add to the magic of the experience.`
+  },
+],
+" Delhi-jaipur" :[
+  {
+    "img" :`./assets/home/d-t-a/`,
+    "head":`Yamuna Expressway`,
+    "descr":`View: Starting from Delhi, the Yamuna Expressway offers a smooth ride with expansive views of the countryside. The well-maintained road is lined with fields, and on a clear day, you can enjoy the vast, open skies. The straight, long stretches of the expressway provide a sense of freedom and anticipation for the journey ahead.`
+  },
+  {
+    "img" :`./assets/home/d-t-a`,
+    "head":`Taj Mahal, Agra`,
+    "descr":`View: No trip through Agra is complete without stopping to admire the Taj Mahal. The view of this iconic marble mausoleum, with its gleaming white domes and intricate carvings, is a sight that never fails to impress. The Taj Mahal, set against the backdrop of the Yamuna River and lush gardens, is an unforgettable visual experience.`
+  },
+  {
+    "img" :`./assets/home/d-t-a`,
+    "head":`Agra Fort`,
+    "descr":`View: As you continue your journey in Agra, a visit to the Agra Fort provides another historical perspective. The view from the fort offers a glimpse of the Taj Mahal in the distance, framed by the imposing red sandstone walls of the fort. The contrast between the fort’s architecture and the surrounding landscape is striking.`
+  },
+  {
+    "img" :`./assets/home/d-t-a`,
+    "head":`Fatehpur Sikri`,
+    "descr":`View: On the way to Jaipur, a detour to Fatehpur Sikri offers views of this ancient city, which was once the capital of the Mughal Empire. The view of the Buland Darwaza, the massive gateway, and the other architectural marvels of this UNESCO World Heritage site, set against the backdrop of the arid landscape, is both majestic and haunting.`
+  },
+  {
+    "img" :`./assets/home/d-t-a`,
+    "head":`Aravalli Hills, Approaching Jaipur`,
+    "descr":`View: As you near Jaipur, the road begins to wind through the Aravalli Hills. The view of these ancient, rugged hills is a welcome change from the plains, with the landscape turning more rocky and dramatic. The sight of Jaipur's forts and palaces appearing in the distance, especially the Amber Fort perched on the hill, signals the end of your journey and the beginning of exploring Rajasthan’s royal heritage.`
+  }
+]
+}
+const spotsImage = document.getElementById('spot-view');
+const spotHead = document.getAnimations('spot-head');
+const detailSpots = document.getElementById('detail-spots')
+
+function one(){
+  let manaliIndex = 0
+  if(manaliIndex == dataSpotsImage["manali-leh"] - 1){
+     manaliIndex = 0 
+    }
+    else{
+     manaliIndex++;
+    } 
+    
+    spotsImage.src = dataSpotsImage["manali-leh"][manaliIndex].img;
+    spotHead.innerText = dataSpotsImage["manali-leh"][manaliIndex].head;
+    detailSpots.innerText = dataSpotsImage["manali-leh"][manaliIndex].descr;
+
+}
+setInterval(one, 2000);
