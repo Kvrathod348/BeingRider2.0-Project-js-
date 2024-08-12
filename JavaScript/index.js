@@ -233,7 +233,7 @@ function change() {
 
 // Product Design
 const dataSpotsImage = {
-  "manali-leh": [
+"manali-leh": [
     {
     "img": './assets/home/m-t-l/m-t-l-1.webp',
     "head": 'Rohtang Pass',
@@ -247,7 +247,7 @@ const dataSpotsImage = {
   {
     "img":'./assets/home/m-t-l/lahaul-valley-3.jpg',
     "head":' Lahaul Valley',
-    "descr":``
+    "descr":`View: The lush Lahaul Valley, with its rolling green fields, quaint villages, and backdrop of towering mountains, offers a serene and picturesque stop. Keylong, the district headquarters, is surrounded by monasteries and provides a tranquil view of the valley.`
   },
   {
     "img":'./assets/home/m-t-l/Baralacha La m-t-l-4.avif',
@@ -290,27 +290,27 @@ const dataSpotsImage = {
 ],
 "Gao-garkanana":[
   {
-    "img":`./assets/home/g-t-g/Palolem Beach-g-t-g=1.jpeg`,
+    "img":`./assets/home/g-t-g/Palolem Beach-g-t-g1.jpeg`,
     "head":`Palolem Beach`,
     "descr":`View: Just south of Goa, Palolem Beach offers a tranquil setting with its crescent-shaped shoreline lined with palm trees and colorful beach huts. The view of the sun rising or setting over the Arabian Sea from here is simply mesmerizing.`
   },
   {
-    "img":`./assets/home/g-t-g/Hatu Peak-s-t-s=2.jpeg`,
+    "img":`./assets/home/g-t-g/Cabo de Rama Fort-g-t-g-2.jpg`,
     "head":` Cabo de Rama Fort`,
     "descr":`View: As you ride through the serene stretch of Agonda Beach, the unspoiled sandy shores and clear waters create a perfect tropical scene. A short detour to Cabo de Rama Fort offers panoramic views of the rugged coastline and the vast expanse of the Arabian Sea.`
   },
   {
-    "img":`./assets/home/g-t-g/Sutlej-River-s-t-s=3.webp`,
+    "img":`./assets/home/g-t-g/Sutlej-River-s-t-s-3.webp`,
     "head":`Karwar Beach`,
     "descr":`View: Crossing into Karnataka, the town of Karwar offers stunning views where the Kali River meets the Arabian Sea. The view of the river estuary, with its calm waters, fishing boats, and the surrounding greenery, is picturesque. The Karwar Beach itself is a peaceful spot with golden sands and gentle waves.`
   },
   {
-    "img":`./assets/home/g-t-g/Kalpa-at-s-t-s=4.jpg`,
+    "img":`./assets/home/g-t-g/Kalpa-at-s-t-s4.jpg`,
     "head":`Kali River Estuary`,
     "descr":`View: Crossing into Karnataka, the town of Karwar offers stunning views where the Kali River meets the Arabian Sea. The view of the river estuary, with its calm waters, fishing boats, and the surrounding greenery, is picturesque. The Karwar Beach itself is a peaceful spot with golden sands and gentle waves.`
   },
   {
-    "img":`./assets/home/g-t-g/Nako-scaled-s-t-s5.jpg`,
+    "img":`./assets/home/g-t-g/`,
     "head":`Gokarna`,
     "descr":`View: As you approach Gokarna, the view from the cliffs overlooking Om Beach is iconic. The beach gets its name from its natural Om shape, and the sight of the gentle waves lapping against the unique coastline, surrounded by green hills, is a perfect end to the trip. The sunset view from here is particularly spectacular, casting a golden hue over the waters.`
   }
@@ -342,7 +342,7 @@ const dataSpotsImage = {
     "descr":`View: As you ascend into the Western Ghats and approach Coorg, the landscape transforms into rolling hills covered with dense forests and sprawling coffee plantations. The view of the mist-covered hills, interspersed with coffee bushes, pepper vines, and the occasional waterfall, is truly mesmerizing. The cool breeze and the aroma of coffee in the air add to the magic of the experience.`
   },
 ],
-" Delhi-jaipur" :[
+"Delhi-jaipur" :[
   {
     "img" :`./assets/home/d-t-a/`,
     "head":`Yamuna Expressway`,
@@ -370,22 +370,61 @@ const dataSpotsImage = {
   }
 ]
 }
+let currentKey = "manali-leh";
+let dataKeys = { 
+    "manali-leh": 0, 
+    "shimla-spitivalley": 0, 
+    "Gao-garkanana": 0, 
+    "Banglore-Coorg": 0, 
+    "Delhi-jaipur": 0 
+};
+
 const spotsImage = document.getElementById('spot-view');
-const spotHead = document.getAnimations('spot-head');
-const detailSpots = document.getElementById('detail-spots')
+const spotHead = document.getElementById('spot-head');
+const detailSpots = document.getElementById('detail-spots');
 
-function one(){
-  let manaliIndex = 0
-  if(manaliIndex == dataSpotsImage["manali-leh"] - 1){
-     manaliIndex = 0 
-    }
-    else{
-     manaliIndex++;
-    } 
-    
-    spotsImage.src = dataSpotsImage["manali-leh"][manaliIndex].img;
-    spotHead.innerText = dataSpotsImage["manali-leh"][manaliIndex].head;
-    detailSpots.innerText = dataSpotsImage["manali-leh"][manaliIndex].descr;
-
+function updateView() {
+    const currentIndex = dataKeys[currentKey];
+    console.log("Currrent Index", currentIndex)
+    const spotData = dataSpotsImage[currentKey][currentIndex];
+    spotsImage.src = spotData.img;
+    spotHead.innerText = spotData.head;
+    detailSpots.innerText = spotData.descr;
 }
-setInterval(one, 2000);
+
+function one() {
+  currentKey = "manali-leh";
+  updateView();
+}
+
+function two() {
+  currentKey = "shimla-spitivalley";
+  updateView();
+}
+
+function three() {
+  currentKey = "Gao-garkanana";
+  updateView();
+}
+
+function four() {
+  currentKey = "Banglore-Coorg";
+  updateView();
+}
+
+function five() {
+  currentKey = "Delhi-jaipur";
+  updateView();
+}
+
+function left() {
+  dataKeys[currentKey] = (dataKeys[currentKey] - 1 + dataSpotsImage[currentKey].length) % dataSpotsImage[currentKey].length;
+  updateView();
+}
+
+function right() {
+  dataKeys[currentKey] = (dataKeys[currentKey] + 1) % dataSpotsImage[currentKey].length;
+  updateView();
+}
+
+// Initialize the view with the first spot
