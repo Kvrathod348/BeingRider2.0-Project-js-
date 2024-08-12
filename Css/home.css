@@ -45,10 +45,8 @@
 
 .web-title h1 {
     margin: 20px 0;
-    font-size: 45px;
-    
+    font-size: 45px;   
 }
-
 .web-title h1 p {
     font-size: 15px;
 }
@@ -63,7 +61,7 @@
     padding: 5rem 2rem 3rem 2rem;
     margin: 0 auto;
     margin-top: -80px;
-    box-shadow: 1px 30px 19px #938e8e;
+    box-shadow: 1px 20px 20px 2px #938e8e;
     border-radius: 45px;
 }
 
