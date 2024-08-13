@@ -234,6 +234,11 @@ function change() {
 // Product Design
 const dataSpotsImage = {
 "manali-leh": [
+  {
+     "img": `./assets/home/manali-to-ledakh.jpg`,
+     "head":`Lets Start 😁✨`,
+     "descr":`Right Click The Arrow To Know About Places😉`
+  },
     {
     "img": './assets/home/m-t-l/m-t-l-1.webp',
     "head": 'Rohtang Pass',
@@ -263,6 +268,11 @@ const dataSpotsImage = {
 ],
 "shimla-spitivalley" :[
   {
+    "img":`./assets/home/shimla-to-spitivalley.jpg`,
+     "head":`Lets Start 😁✨`,
+     "descr":`Right Click The Arrow To Know About Places😉`
+  },
+  {
     "img" : `./assets/home/s-t-s/narkanda-weekend-s-t-s-1.webp`,
     "head":`Narkanda`,
     "descr":`View: As you pass through Narkanda, you’ll be treated to sweeping views of dense pine forests and the majestic snow-capped peaks of the Himalayas. A detour to Hatu Peak offers a panoramic view of the surrounding mountains and valleys, with apple orchards dotting the landscape.`
@@ -290,6 +300,11 @@ const dataSpotsImage = {
 ],
 "Gao-garkanana":[
   {
+    "img":`./assets/home/goa-vs-gokarna.png`,
+     "head":`Lets Start 😁✨`,
+     "descr":`Right Click The Arrow To Know About Places😉`
+  },
+  {
     "img":`./assets/home/g-t-g/Palolem Beach-g-t-g1.jpeg`,
     "head":`Palolem Beach`,
     "descr":`View: Just south of Goa, Palolem Beach offers a tranquil setting with its crescent-shaped shoreline lined with palm trees and colorful beach huts. The view of the sun rising or setting over the Arabian Sea from here is simply mesmerizing.`
@@ -300,22 +315,27 @@ const dataSpotsImage = {
     "descr":`View: As you ride through the serene stretch of Agonda Beach, the unspoiled sandy shores and clear waters create a perfect tropical scene. A short detour to Cabo de Rama Fort offers panoramic views of the rugged coastline and the vast expanse of the Arabian Sea.`
   },
   {
-    "img":`./assets/home/g-t-g/Sutlej-River-s-t-s-3.webp`,
+    "img":`./assets/home/g-t-g/agonda-beach-g-t-g-3.jpg`,
     "head":`Karwar Beach`,
     "descr":`View: Crossing into Karnataka, the town of Karwar offers stunning views where the Kali River meets the Arabian Sea. The view of the river estuary, with its calm waters, fishing boats, and the surrounding greenery, is picturesque. The Karwar Beach itself is a peaceful spot with golden sands and gentle waves.`
   },
   {
-    "img":`./assets/home/g-t-g/Kalpa-at-s-t-s4.jpg`,
+    "img":`./assets/home/g-t-g/Karwar Beach-g-t-g4.png`,
     "head":`Kali River Estuary`,
     "descr":`View: Crossing into Karnataka, the town of Karwar offers stunning views where the Kali River meets the Arabian Sea. The view of the river estuary, with its calm waters, fishing boats, and the surrounding greenery, is picturesque. The Karwar Beach itself is a peaceful spot with golden sands and gentle waves.`
   },
   {
-    "img":`./assets/home/g-t-g/`,
+    "img":`./assets/home/g-t-g/g-t-g5.webp`,
     "head":`Gokarna`,
     "descr":`View: As you approach Gokarna, the view from the cliffs overlooking Om Beach is iconic. The beach gets its name from its natural Om shape, and the sight of the gentle waves lapping against the unique coastline, surrounded by green hills, is a perfect end to the trip. The sunset view from here is particularly spectacular, casting a golden hue over the waters.`
   }
 ],
 "Banglore-Coorg":[
+  {
+    "img":`./assets/home/bangalore-to-coorg.jpeg`,
+    "head":`Lets Go ✨😁`,
+    "descr":`Right Click The Arrow To Know About Places😉`
+  },
   {
     "img":`./assets/home/b-t-o/ramanagaram-b-t-o=1.jpg`,
     "head":`Ramanagara Hills`,
@@ -344,27 +364,32 @@ const dataSpotsImage = {
 ],
 "Delhi-jaipur" :[
   {
-    "img" :`./assets/home/d-t-a/`,
+    "img":`./assets/home/delhi-to-jaipur-via-agra.jpg`,
+    "head":`Lets Go ✨😁`,
+    "descr":`Right Click The Arrow To Know About Places😉`
+  },
+  {
+    "img" :`./assets/home/d-t-a/Yamuna Expressway-d-t-a.avif`,
     "head":`Yamuna Expressway`,
     "descr":`View: Starting from Delhi, the Yamuna Expressway offers a smooth ride with expansive views of the countryside. The well-maintained road is lined with fields, and on a clear day, you can enjoy the vast, open skies. The straight, long stretches of the expressway provide a sense of freedom and anticipation for the journey ahead.`
   },
   {
-    "img" :`./assets/home/d-t-a`,
+    "img" :`./assets/home/d-t-a/taj-mahal-agra-India-d-t-a.jpg`,
     "head":`Taj Mahal, Agra`,
     "descr":`View: No trip through Agra is complete without stopping to admire the Taj Mahal. The view of this iconic marble mausoleum, with its gleaming white domes and intricate carvings, is a sight that never fails to impress. The Taj Mahal, set against the backdrop of the Yamuna River and lush gardens, is an unforgettable visual experience.`
   },
   {
-    "img" :`./assets/home/d-t-a`,
+    "img" :`./assets/home/d-t-a/Agra Fort-b-t-a.avif`,
     "head":`Agra Fort`,
     "descr":`View: As you continue your journey in Agra, a visit to the Agra Fort provides another historical perspective. The view from the fort offers a glimpse of the Taj Mahal in the distance, framed by the imposing red sandstone walls of the fort. The contrast between the fort’s architecture and the surrounding landscape is striking.`
   },
   {
-    "img" :`./assets/home/d-t-a`,
+    "img" :`./assets/home/d-t-a/Fatehpur Sikri-d-t-a.jpg`,
     "head":`Fatehpur Sikri`,
     "descr":`View: On the way to Jaipur, a detour to Fatehpur Sikri offers views of this ancient city, which was once the capital of the Mughal Empire. The view of the Buland Darwaza, the massive gateway, and the other architectural marvels of this UNESCO World Heritage site, set against the backdrop of the arid landscape, is both majestic and haunting.`
   },
   {
-    "img" :`./assets/home/d-t-a`,
+    "img" :`./assets/home/d-t-a/Aravalli Hills, Approaching Jaipurd-d-t-a.jpg`,
     "head":`Aravalli Hills, Approaching Jaipur`,
     "descr":`View: As you near Jaipur, the road begins to wind through the Aravalli Hills. The view of these ancient, rugged hills is a welcome change from the plains, with the landscape turning more rocky and dramatic. The sight of Jaipur's forts and palaces appearing in the distance, especially the Amber Fort perched on the hill, signals the end of your journey and the beginning of exploring Rajasthan’s royal heritage.`
   }
@@ -385,7 +410,6 @@ const detailSpots = document.getElementById('detail-spots');
 
 function updateView() {
     const currentIndex = dataKeys[currentKey];
-    console.log("Currrent Index", currentIndex)
     const spotData = dataSpotsImage[currentKey][currentIndex];
     spotsImage.src = spotData.img;
     spotHead.innerText = spotData.head;
